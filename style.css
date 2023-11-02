@@ -1,0 +1,123 @@
+.secone{
+    /* border: 2px solid black; */
+     /* text-align: center;  */
+     /* background-color: black;  */
+     font-size: larger; 
+     background-color: lightblue;
+    
+} 
+.sectwo{
+    border: 2px solid rgba(245, 245, 245, 0);
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+    background-color: rgba(245, 245, 245, 0.792);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+}
+ .opone{
+    /* border: 2px solid black; */
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+     /* color: brown;  */
+     /* margin-right: 900px;  */
+     color: black;
+     font-size: 25px;
+     border-radius: 5px;
+     /* margin-left: 30px; */
+     margin-bottom: 2px;
+
+
+
+ } 
+ .optwo{
+    /* border: 2px solid black; */
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+
+}
+.opthree{
+    /* border: 2px solid black; */
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+
+} 
+.pa{
+    color: black;
+    font-size: 40px;
+}
+.time{
+    color: black;
+    /* text-align: center; */
+    text-align: left;
+    font-size: 35px;
+    border: 2px solid black;
+    border-top-color: rgba(245, 245, 245, 0);
+    border-left-color: rgba(245, 245, 245, 0);
+    border-right-color: rgba(245, 245, 245, 0);
+    border-bottom-color: rgba(0, 0, 0, 0.564);
+    padding-left: 15px;
+
+}
+.but{
+    background-color: lightblue;
+    color: black;
+    /* width: 100%; */
+    /* height: 50px; */
+    /* align-items: flex-start; */
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    /* align-items: flex-start; */
+    /* padding-left: 90px; */
+
+}
+/* .bu{
+    text-align: center;
+} */
+.st{
+    background-color: lightblue;
+    
+}
+
+.stbt{
+    margin-left: 500px;
+    margin-top: 200px;
+    padding: 10px;
+    /* cursor: pointer; */
+    color: black ;
+    font-size: 30px;
+}
+/* p{
+    color: white;
+    padding-left: 550px;
+    padding-top: 250px;
+} */
+.sta{
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+.re{
+    background-color: lightblue;
+    color: black;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}

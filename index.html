@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./start.html">
+    
+</head>
+<body class="secone" onload="nextQuestion()">
+
+    <div class="sectwo">
+
+        <div>
+            <p class="time" id="timer">2:00</p>
+        </div>
+        
+        <div >
+            <p class="pa" id="ques" ></p>
+            
+            <br>
+            <div class="opone">
+
+                <input  class="radone" onclick="clicked()" type="radio" value="1" name="options">
+                <label id="opt1"></label>
+            </div>
+            
+            <!-- <br> -->
+            <div class="optwo">
+
+                <input  onclick="clicked()" type="radio" value="2" name="options">
+                <label id="opt2"></label>
+            </div>
+            
+            <!-- <br> -->
+            
+            <div class="opthree">
+                <input  onclick="clicked()" type="radio" value="3" name="options">
+                <label id="opt3"></label>
+                
+            </div>
+<!-- <br> -->
+<br>
+<!-- <div class="bu"> -->
+    
+    <form action="./start.html">
+    <button class="but" id="btn" disabled onclick="nextQuestion()">Next</button>
+
+        <button class="re">Restart</button>
+    </form>
+<!-- </div> -->
+
+    </div>
+
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+<script src="app.js"></script>
+</html>
